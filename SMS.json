@@ -1,0 +1,110 @@
+[
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Developer",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "Made By Radhe Krushna (Subscribe Maharna's Tech YouTube Channel And Learn How to Modify App)"
+    },
+    {
+        "code": "requestPermissions(new String[] {android.Manifest.permission.%1$s}, 1000);\r",
+        "color": "#FFE91E63",
+        "name": "App Permission",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": "If Permission %s.inputOnly allowed successfully"
+    },
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Variable Number",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "This block is only for Unique Custom Variable For Your Target Phone Numbers"
+    },
+    {
+        "code": "String %1$s = \"%2$s\";",
+        "color": "#FF9C27B0",
+        "name": "Custom Variable for Number",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": "Enter Custom Variable For Target Number (Case Sensitive) %s.inputOnly Target number%s.inputOnly  "
+    },
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Variable Message",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "This block is Only For adding different unique Variable for your Message"
+    },
+    {
+        "code": "String %1$s = \"%2$s\";",
+        "color": "#FF4CAF50",
+        "name": "Custom Variable for Message",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": "Enter Custom Variable For Target Message(Case Sensitive) %s.inputOnly Target Message%s.inputOnly  "
+    },
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Use This Block If you need By Default",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "Use This Block For a  By Default Phone Number"
+    },
+    {
+        "code": "try {\n     SmsManager.getDefault().sendTextMessage(\"%1$s\", (String) null, \"%2$s\", (PendingIntent) null, (PendingIntent) null);",
+        "color": "#FF3F51B5",
+        "name": "Manager",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": " Default Phone Number%s.inputOnly Message %s.inputOnly Sending Automatically "
+    },
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Message",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "Now Join Your Target Number With Target Message 😅"
+    },
+    {
+        "code": "SmsManager.getDefault().sendTextMessage(%1$s, (String) null, %2$s, (PendingIntent) null, (PendingIntent) null);",
+        "color": "#FF2196F3",
+        "name": "Join Number",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": "Custom Variable for Number %s.inputOnly Custom Variable For Message %s.inputOnly  "
+    },
+    {
+        "code": "",
+        "color": "#FF000000",
+        "name": "Now Your Activity",
+        "typeName": "",
+        "palette": "12",
+        "type": "h",
+        "spec": "Now Add Your Activity"
+    },
+    {
+        "code": "    } catch (Exception e) {\n            Exception exception = e;\n            Toast.makeText(getApplicationContext(), exception.getMessage().toString(), 1).show();\n            exception.printStackTrace();\n        }\n    }\n\n\tpublic %1$s() {\n\t\tActivity activity = this;\n\t",
+        "color": "#FF009688",
+        "name": "Activity",
+        "typeName": "",
+        "palette": "12",
+        "type": " ",
+        "spec": "This Operation is held on %s.inputOnly "
+    }
+]
